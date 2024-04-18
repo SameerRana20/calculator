@@ -1,0 +1,56 @@
+* {
+    font-size:40px;
+    color:white;
+    font-family:arial;
+ }
+
+ .box {
+   border-radius:29px;
+    
+    height:540px;
+    width:380px;
+    background-color:black;
+    
+ }
+
+ input {
+    background-color: black;
+    color:white;
+    width:340px;height:80px;
+    border:none; outline:none;  
+    font-size:80px;
+    text-align: end;
+    border-top-left-radius: 29px;
+ }
+
+ button {
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    background-color:rgb(54, 54, 54);
+    border:none; outline:none; 
+    
+ }
+
+ div {
+    margin-top:10px;
+     margin-left:11px;
+ }
+
+ #divide, #multiply, #subtract, #add, #equal {
+    background-color:orange;
+ }
+
+ #AC, #modulus, #negative {
+    background-color: grey;
+ }
+
+ #zero {
+    width:170px;
+    border-radius:50px;
+    text-align: start;
+    padding-left:27px;
+ }
+ button:hover {
+   background-color:rgba(234, 227, 227, 0.497)
+ }
